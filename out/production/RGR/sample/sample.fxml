@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="653.0" prefWidth="1265.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <GridPane layoutX="56.0" layoutY="87.0" prefHeight="364.0" prefWidth="333.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="183.45042419433594" minWidth="10.0" prefWidth="183.45042419433594" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="192.96945190429688" minWidth="10.0" prefWidth="149.54957580566406" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Значення" underline="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" text="Параметри" textAlignment="CENTER" underline="true" GridPane.halignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label text="Вік" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Стать" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="ІМТ" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Діаст. тиск" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Сист. тиск" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="ШОЕ" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Тромбоцити" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Лейкоцити" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Еритроцити" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Гемоглобін" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Бластні клітини" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <TextField fx:id="age" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField fx:id="bmi" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <TextField fx:id="dp" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <TextField fx:id="sp" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <TextField fx:id="esrB" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <TextField fx:id="plaB" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <TextField fx:id="leuB" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                <TextField fx:id="eryB" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                <TextField fx:id="hemB" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                <TextField fx:id="bcB" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                <ComboBox fx:id="sex" prefWidth="150.0" promptText="" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            </children>
+        </GridPane>
+        <GridPane layoutX="470.0" layoutY="86.0" prefHeight="367.0" prefWidth="342.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="156.4732666015625" minWidth="10.0" prefWidth="143.9122314453125" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="125.60308837890625" minWidth="10.0" prefWidth="94.5877685546875" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="149.0" minWidth="10.0" prefWidth="18.93511962890625" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.38934326171875" minWidth="10.0" prefWidth="90.56488037109375" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="MIN" underline="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label text="MAX" underline="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="hydMin" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField fx:id="hydMax" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <TextField fx:id="cycMin" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <TextField fx:id="cycMax" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <TextField fx:id="esrMin" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <TextField fx:id="esrMax" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                <TextField fx:id="plaMin" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <TextField fx:id="plaMax" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                <TextField fx:id="eryMin" disable="true" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <TextField fx:id="eryMax" disable="true" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                <Label text="Параметри" underline="true" GridPane.halignment="CENTER">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Label text="Гідроксична р-на" underline="true" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <Label text="Циклофосфоліт" underline="true" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <Label text="ШОЕ" GridPane.rowIndex="3">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <Label text="Тромбоцити" GridPane.rowIndex="4">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <Label text="Лейкоцити" GridPane.rowIndex="5">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <Label text="Еритроцити" GridPane.rowIndex="6">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <Label text="Бластні клітини" GridPane.rowIndex="7">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+                <TextField fx:id="leuMin" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <TextField fx:id="leuMax" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                <TextField fx:id="bcMin" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <TextField fx:id="bcMax" prefWidth="86.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            </children>
+        </GridPane>
+        <GridPane layoutX="887.0" layoutY="103.0" prefHeight="335.0" prefWidth="349.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="255.72528076171875" minWidth="10.0" prefWidth="137.5" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.0" minWidth="10.0" prefWidth="83.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="132.0992431640625" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label fx:id="bcLabel" prefHeight="20.0" prefWidth="139.0" text="Бластні кл.(Х16)" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="Лейкоцити(Х14)" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label fx:id="plaLabel" text="Тромбоцити(Х13)" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label text="ШОЕ(Х12)" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <Label fx:id="eryLabel" text="Еритроцити(Х15)" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+                <TextField fx:id="esrE" disable="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <TextField fx:id="bcE" disable="true" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                <TextField fx:id="leuE" disable="true" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <TextField fx:id="eryE" disable="true" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <TextField fx:id="plaE" disable="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <Label prefHeight="11.0" prefWidth="204.0" text="Гідроксична р-на" underline="true">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font></Label>
+            <TextField fx:id="cyc" disable="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="hyd" disable="true" GridPane.columnIndex="2" />
+            <Label fx:id="label0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="label1" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="label2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="label3" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="label4" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label text="Циклофосфоліт" underline="true" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            </children>
+        </GridPane>
+        <Button fx:id="resultBtn" layoutX="1063.0" layoutY="461.0" mnemonicParsing="false" onAction="#result" prefHeight="32.0" prefWidth="145.0" text="Обчислити">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font></Button>
+        <Button fx:id="defaultResBtn" layoutX="482.0" layoutY="477.0" mnemonicParsing="false" onAction="#restrictionsByDefault" text="За замовчуванням">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+        <Button fx:id="resetResBtn" layoutX="672.0" layoutY="477.0" mnemonicParsing="false" onAction="#resetRestrictions" text="Очистити поля">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+        <Button fx:id="resetVarBtn" layoutX="65.0" layoutY="477.0" mnemonicParsing="false" onAction="#resetVariables" text="Очистити поля">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Line endX="16.11468505859375" endY="436.21136474609375" layoutX="421.0" layoutY="86.0" startX="16.11468505859375" startY="-85.99999237060547" />
+      <Line endX="16.11468505859375" endY="425.21136474609375" layoutX="836.0" layoutY="97.0" startX="16.11468505859375" startY="-97.0" />
+      <Text layoutX="135.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дані пацієнта" wrappingWidth="175.7607421875">
+         <font>
+            <Font name="Arial Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="566.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Обмеження">
+         <font>
+            <Font name="Arial Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="921.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результат оптимізації">
+         <font>
+            <Font name="Arial Bold" size="26.0" />
+         </font>
+      </Text>
+      <Line endX="-882.0" endY="221.71136474609375" layoutX="882.0" layoutY="300.0" startX="381.6309814453125" startY="221.71136474609375" />
+      <TextArea fx:id="textArea" layoutX="232.0" layoutY="530.0" prefHeight="115.0" prefWidth="622.0" />
+      <Label layoutX="66.0" layoutY="530.0" prefHeight="32.0" prefWidth="157.0" text="Проміжні моделі:">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="220.0" layoutY="477.0" mnemonicParsing="false" onAction="#loadB" prefHeight="32.0" prefWidth="181.0" text="Випадковий пацієнт">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+
+
+    </children>
+</AnchorPane>
